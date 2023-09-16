@@ -1,0 +1,57 @@
+.logicNode {
+  border: 1px solid #faad14;
+}
+
+.handle {
+  height: 100%;
+  border-radius: 0;
+  border: medium none;
+  width: 20px;
+}
+
+.handleLeft {
+  left: -20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #faad14;
+}
+
+.handleRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 20px;
+  right: -20px;
+}
+
+.true {
+  top: 25%;
+  border-top-right-radius: 5px;
+  background-color: #52c41a;
+}
+
+.false {
+  top: 75%;
+  border-bottom-right-radius: 5px;
+  background-color: #ff4d4f;
+}
+
+.true:after {
+  content: "";
+  display: block;
+  height: 12px;
+  width: 12px;
+  background: #fff;
+  -webkit-mask: url(../../assets/Check.svg);
+  mask: url(../../assets/Check.svg);
+}
+
+.false:after {
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: #fff;
+  -webkit-mask: url(../../assets/Close.svg);
+  mask: url(../../assets/Close.svg);
+}

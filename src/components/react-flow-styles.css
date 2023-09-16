@@ -1,0 +1,9 @@
+.react-flow__edge {
+  stroke-dasharray: 5;
+  animation: dashdraw .5s linear infinite;
+}
+
+.react-flow__edge-path {
+  stroke: #b1b1b7;
+  stroke-width: 2;
+}

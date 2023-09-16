@@ -1,0 +1,52 @@
+.sidebar {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: #fcfcfc;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.actionNodes,
+.logicNodes,
+.outputNodes .startNodes {
+  margin-bottom: 10px;
+}
+
+.actionNode,
+.logicNode,
+.outputNode,
+.startNode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.actionNode:nth-last-of-type(1),
+.logicNode:nth-last-of-type(1),
+.outuptNode:nth-last-of-type(1),
+.startNode:nth-last-of-type(1) {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 20%;
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    overflow-y: auto;
+  }
+}

@@ -1,0 +1,57 @@
+.actionNode {
+  border: 1px solid #262626;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid #262626;
+  padding: 8px;
+}
+
+.label {
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.phoneContainer {
+  margin-bottom: 4px;
+}
+
+.phoneInput {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.input {
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  padding: 4px;
+  min-width: calc(100% - 8px - 2px);
+}
+
+.handle {
+  height: 100%;
+  border-radius: 0;
+  border: medium none;
+  width: 20px;
+  background-color: #262626;
+}
+
+.handleLeft {
+  left: -20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.handleRight {
+  right: -20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*
+.handle:hover {
+  background-color: #414042 !important;
+}
+*/

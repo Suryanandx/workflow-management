@@ -1,0 +1,20 @@
+.startNode {
+  border: 1px solid #1890ff;
+}
+
+.handle {
+  height: 100%;
+  border-radius: 0;
+  border: medium none;
+  width: 20px;
+  right: -20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #1890ff;
+}
+
+/*
+.handle:hover {
+  background-color: #3377FF !important;
+}
+*/
